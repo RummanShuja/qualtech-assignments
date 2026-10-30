@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miFIN - Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Background video (covers entire page) -->
+        <video class="bg-video" autoplay muted loop playsinline>
+            <source src="public/bg-video.mp4" type="video/mp4">
+        </video>
+
+        <!-- LEFT PANEL -->
+        <div class="left-panel">
+
+            <div class="logo">
+                <span class="logo-text">miFIN</span>
+                <span class="logo-star">&#10022;</span>
+            </div>
+
+            <div class="hero">
+                <h1>Lend Smarter.<br>Collect Faster.<br><span class="accent">Grow Stronger.</span></h1>
+                <p class="hero-sub">
+                    miFin is a fully integrated, compliance-ready Loan Management System built
+                    for modern NBFCs, MFIs, and banks â€” from origination to collections, all in one place.
+                </p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-num">22+</span>
+                    <span class="stat-label">Years of BFSI Expertise</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">50+</span>
+                    <span class="stat-label">Trusted Customers</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">350+</span>
+                    <span class="stat-label">Dedicated Tech Experts</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">12+</span>
+                    <span class="stat-label">Comprehensive Loan Fill</span>
+                </div>
+            </div>
+
+            <div class="product-tags">
+                <span class="tags-label">Get Suite of Products</span>
+                <div class="tags">
+                    <span class="tag">LEAD</span>
+                    <span class="tag">LOS</span>
+                    <span class="tag">Collection</span>
+                    <span class="tag">Connect AI</span>
+                    <span class="tag">Finly</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT PANEL -->
+        <div class="right-panel">
+            <div class="card">
+
+                <div class="card-logo">
+                    <span class="bank-name"><img src="public/ABC_Bank_img.png" alt="ABC Bank." ></span>
+                </div>
+
+                <h2 class="card-title">Smart Lending Starts Here</h2>
+                <p class="card-sub">Sign in to continue to your secure lending workspace.</p>
+
+                <div class="tabs">
+                    <button class="tab active">miFIN</button>
+                    <button class="tab">SSO</button>
+                    <button class="tab">MFA</button>
+                </div>
+
+                <form class="login-form" novalidate>
+
+                    <div class="form-group">
+                        <label for="username">User Name</label>
+                        <input type="text" id="username" value="rohanmehr93@gmail.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <div class="password-wrapper">
+                            <input type="password" id="password" placeholder="Enter password">
+                            <button type="button" class="eye-btn" aria-label="Show password">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                    <circle cx="12" cy="12" r="3"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="form-options">
+                        <label class="remember-label">
+                            <input type="checkbox" id="remember-me">
+                            <span>Remember me</span>
+                        </label>
+                        <a href="#" class="forgot-link">Forgot password</a>
+                    </div>
+
+                    <div class="captcha-row">
+                        <div class="captcha-box">
+                            <span>VAL<strong>43</strong></span>
+                        </div>
+                        <div class="form-group captcha-input-wrap">
+                            <input type="text" id="captcha" placeholder="Enter captcha">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Sign in to miFin</button>
+
+                </form>
+
+                <div class="card-footer">
+                    <p class="powered-by">Powered by <strong>qualtech</strong></p>
+                    <p class="legal">
+                        By signing in you agree to miFin
+                        <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
